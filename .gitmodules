@@ -97,3 +97,6 @@
 [submodule "modules/motorAcsMotion"]
 	path = modules/motorAcsMotion
 	url = https://github.com/epics-motor/motorAcsMotion.git
+[submodule "modules/motorZaberMotion"]
+	path = modules/motorZaberMotion
+	url = git@gitlab.izaber.com:colby.sparks/zaber-motor-epics.git

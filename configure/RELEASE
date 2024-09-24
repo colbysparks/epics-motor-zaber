@@ -9,12 +9,12 @@
 #
 # Add your declarations here
 
-SUPPORT=/path/to/support
+SUPPORT=/home/ubuntu/EPICS/support
 
 # If any motor controller communication mechanism besides 
 # the VME backplane is required, then ASYN must be defined.
 # Recommended ASYN release: R4-35
-ASYN=$(SUPPORT)/asyn-R4-35
+ASYN=$(SUPPORT)/asyn
 
 # Need the sequencer and the busy record for trajectory scanning
 # Recommended SNCSEQ release: R2.2.6
@@ -23,7 +23,7 @@ SNCSEQ=$(SUPPORT)/seq-2-2-6
 BUSY=$(SUPPORT)/busy-R1-7-1
 
 # Recommended EPICS release: R3.15.6
-EPICS_BASE=/path/to/base
+EPICS_BASE=/home/ubuntu/EPICS/base-7.0.8.1
 
 # The following must be defined for motorMXmotor
 #!MX=$(SUPPORT)/mx/mx
@@ -40,7 +40,7 @@ IPAC=$(SUPPORT)/ipac-R2-15
 #!MODBUS=$(SUPPORT)/modbus-R2-11
 
 # The following is only needed for the motor examples in iocBoot.
-#!MOTOR=$(TOP)
+MOTOR=$(TOP)
 
 # These lines allow developers to override these RELEASE settings
 # without having to modify this file directly.

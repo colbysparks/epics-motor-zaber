@@ -7,3 +7,4 @@ INSTALL_LOCATION = $(MOTOR)
 # Stop submodules from installing their configuration files:
 CONFIG_INSTALLS =
 
+BUILD_IOCS = YES
