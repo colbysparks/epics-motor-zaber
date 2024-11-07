@@ -5,7 +5,11 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${EPICS_BASE}/include",
-                "${EPICS_BASE}/modules/**"
+                "${EPICS_BASE}/modules/**",
+                "${workspaceFolder}/modules/motorZaberMotion/zaberMotionApp/test/zml_mock",
+                "${workspaceFolder}/modules/motorZaberMotion/zaberMotionSupport/ZaberMotionCppSupport/include",
+                "${workspaceFolder}/modules/motorZaberMotion/zaberMotionApp/src",
+                "${workspaceFolder}/motorApp/MotorSrc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

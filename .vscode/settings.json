@@ -62,6 +62,10 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "cinttypes": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "string.h": "c",
+        "bitset": "cpp",
+        "regex": "cpp",
+        "variant": "cpp"
     }
 }

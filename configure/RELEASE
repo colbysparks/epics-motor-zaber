@@ -18,7 +18,7 @@ ASYN=$(SUPPORT)/asyn
 
 # Need the sequencer and the busy record for trajectory scanning
 # Recommended SNCSEQ release: R2.2.6
-SNCSEQ=$(SUPPORT)/seq-2-2-6
+SNCSEQ=$(SUPPORT)/sequencer
 # Recommended BUSY release: R1-7-1
 BUSY=$(SUPPORT)/busy-R1-7-1
 
